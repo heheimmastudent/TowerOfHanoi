@@ -8,6 +8,9 @@ The program prints the steps of the Tower of Hanoi solution to the console and d
 ## Usage
 1. Ensure that you have a 32-bit Single Cycle RISC-V Processor environment.
 2. Load and execute the program on your RISC-V processor.
+   
+## DISCLAIMER
+Feel free to modify the content based on your preferences or if you have additional information to include. The usage section provides a simple example to demonstrate how someone might use your program.
 
 ## Function Parameters
 - `Num_of_Disks`: Number of disks in the Tower of Hanoi problem.
@@ -24,6 +27,4 @@ li a3, 'B'     # Auxiliary rod character
 li a4, 'C'     # Destination rod character
 jal towerOfHanoi
 
-## DISCLAIMER
 
-Feel free to modify the content based on your preferences or if you have additional information to include. The usage section provides a simple example to demonstrate how someone might use your program.
